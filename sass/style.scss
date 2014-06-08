@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import "compass";
+@import "compass/reset/";
+
+body {
+
+}
+
+.header {
+  width: 100%;
+  padding: 150px 0 130px;
+  background: url("../img/bg_img01.jpg") center center;
+  @include background-size(cover);
+  color: #fff;
+  text-align: center;
+  font-family:'Lucida Grande';
+  @include box-sizing(border-box);
+}
+
+.header__heading {
+  margin-top: 10px;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.header__summary {
+  margin-top: 10px;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hello {
+  padding: 100px 0 135px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: Gill Sans, 'Gill Sans';
+  @include box-sizing(border-box);
+}
+
+.hello__heading {
+  color: #444;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hello__description {
+  color: #444;
+  font-size: 28px;
+}
+
+.hello__socialList {
+  margin: 50px 0 0;
+  @include clearfix;
+}
+
+.hello__socialList__item {
+  margin: 0 0 0 35px;
+  color: #444;
+  opacity: 1;
+  @include transition-property(opacity);
+  @include transition-duration(0.15s);
+  &:first-child {
+    margin: 0;
+  }
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.skillOuter {
+  width: 100%;
+  min-height: 450px;
+  padding: 125px 0;
+  background: url("../img/bg_img02.jpg") center center;
+  @include background-size(cover);
+  color: #fff;
+  font-family: Gill Sans, 'Gill Sans';
+  @include box-sizing(border-box);
+}
+
+.skill {
+  max-width: 960px;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+.skill__heading {
+  margin: 0 0 60px 0;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skill__item {
+  float: left;
+  max-width: 300px;
+  margin: 0 0 0 30px;
+  text-align: center;
+}
+
+.skill__item--first {
+  margin: 0;
+}
+
+.skill__item__icon {
+  height: 112px;
+}
+
+.skill__item__heading {
+  margin: 20px 0 0;
+  font-size: 36px;
+}
+
+.skill__item__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: rgba(255,255,255,0.85);
+  line-height: 2.2;
+}
+
+.worksOuter {
+  width: 100%;
+  padding: 125px 0;
+  font-family: Gill Sans, 'Gill Sans';
+  background: #f9f9f9;
+  @include box-sizing(border-box);
+}
+
+.works {
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.works__heading {
+  margin: 0 0 60px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.works__list {
+  @include clearfix;
+}
+
+.works__list__item {
+  float: left;
+  width: 400px;
+  &:nth-child(even) {
+    margin: 0 0 0 30px;
+  }
+}
+
+.works__list__item__heading {
+  padding: 15px 0  15px 105px;
+  font-size: 18px;
+  font-family: HelveticaNeue-Medium;
+  color: #5d5d5d;
+  background: #eee;
+  background-image: url("../img/brwBtns.png");
+  background-repeat: no-repeat;
+  background-position: 20px 14px;
+  @include border-radius(10px 10px 0px 0px, 10px 10px 0px 0px);
+}
+
+.works__list__item__thumb {
+  max-width: 400px;
+  @include box-shadow( rgba(162,162,162,0.5) 0 3px 0);
+  @include border-radius(0px 0px 10px 10px, 0px 0px 10px 10px);
+}
