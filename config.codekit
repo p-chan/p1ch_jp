@@ -91,17 +91,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/brwBtn.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1154,
-		"inputAbbreviatedPath": "\/img\/brwBtn.png",
-		"outputAbbreviatedPath": "\/img\/brwBtn.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/brwBtns.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -199,6 +188,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -266,7 +267,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "藤原慎太郎",
+"lastSavedByUser": "p1ch_jp",
 "manualImportLinks": {
 	},
 "projectAttributes": {
